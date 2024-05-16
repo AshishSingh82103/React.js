@@ -4,4 +4,5 @@ This is all about React.js
 Author By - Ashish Singh.
 
 npm => node package manger
+<br>
 npx => node package exicuter
