@@ -1,3 +1,4 @@
+import Ashish from "./ashish"
 
 
 
@@ -5,7 +6,11 @@ function App() {
   
 
   return (
-    <h1>React with vite | Ashish Singh</h1>
+    <>
+    <Ashish/>
+    <h1>Ashish React</h1>
+    <p>Test paragraph</p>
+    </>
     
   )
 }
