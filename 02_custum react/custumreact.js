@@ -28,5 +28,11 @@ const mainContainer = document.querySelector("#root");
 
 custumRender(reactElement, mainContainer);
 
+document.querySelector("#root");
+const mainBox = document.querySelector('#root');
+
+custumRender1(reactElement1, reactElement3);
+
+
 
 
