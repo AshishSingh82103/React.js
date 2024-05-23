@@ -5,22 +5,28 @@ import './App.css'
 
 function App() {
   useState(15);
-  let [counter, setCounter] = useState(0);
+  let [counter, setCounter] = useState(15);
 
 
   // let counter = 15;
   const addValue = () =>{
-    // console.log("value added", counter);
-    counter = counter + 1;
+    
+    setCounter(counter);
+  //  console.log("value added", counter);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+
     if(counter <= 20) {
-      setCounter(counter);
+      setCounter(counter + 1);
     }
   }
 
   const removeValue = () =>{
-    counter = counter - 1;
+    // counter = counter - 1;
+      //  setCounter(counter - 1);
     if(counter >= 0) {
-      setCounter(counter);
+      setCounter(counter - 1);
     }
   }
 
